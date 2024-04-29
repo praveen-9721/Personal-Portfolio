@@ -12,8 +12,8 @@
 }
 
 :root{
-    --bg-color: #0e0c30;
-    --snd-bg-color: #1d1745;
+    --bg-color: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    --snd-bg-color: linear-gradient(315deg, #2234ae 0%, #191714 74%);
     --text-color: #fff;
     --main-color: #59B2F4;
     --hover-color:#12f7ff;
@@ -388,6 +388,10 @@ span {
 
 .contact form textarea {
     resize: none;
+}
+
+::placeholder {
+    color: var(--text-color);
 }
 
 .contact form .btn {
